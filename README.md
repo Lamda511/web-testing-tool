@@ -5,6 +5,7 @@ The idea is to be able to run a suite of Selenium tests just by following some c
 
 For example, a test could be created and executed by following a JSON like the following:
 
+```
 {
   "test_id": "test_1",
   "test_name": "First test",
@@ -44,5 +45,6 @@ For example, a test could be created and executed by following a JSON like the f
   ],
   "test_result": ""
 }
+```
 
 The project is work in progress and does not handle yet Selenium commands.
